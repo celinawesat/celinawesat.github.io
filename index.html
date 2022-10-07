@@ -1,50 +1,71 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <!-- font: Notosans -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <!-- icons: font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <title>الصفحة الرئيسية - سيلين عويسات</title>
+    <title>Document</title>
 </head>
 <body>
-    <!-- header -->
-    <input type="checkbox" id="cart">
-    <label for="cart" class="label-cart"><span class="fas fa-shopping-cart"></span></label>
+    
+    <header>
+        <a href="#" class="logo">Celin</a>
+        <nav class="navigation">
+            <a href="paragraph.html">التواصل</a>
+            <a href="#الخدمات">الخدمات</a>
+            <a href="#اعمالي">اعمالي</a>
+        </nav>
+    </header>
 
-    <h3 class="logo">الصفحة الرئيسية - سيلين سامر عويسات</h3>
 
-    <!-- sidebar -->
-    <div class="sidebar">
-        <div class="sidebar-menu">
-            <span class="fas fa-home"></span>
-            <a href="#">الصفحة الرئيسية</a>
-        </div>
-        <div class="sidebar-menu">
-            <span class="fas fa-comment-dots"></span>
-            <a href="#">المقولة</a>
-        </div>
-        <div class="sidebar-menu">
-            <span class="fas fa-envelope"></span>
-            <a href="#">إقتراحات</a>
-        </div>
-    </div>
-    <!-- main dashboard -->
-    <div class="dashboard">
-        <div class="dashboard-banner">
-            <img src="images/WhatsApp Image 2022-10-06 at 18.07.04.jpeg">
-            <div class="banner-promo">
-                <h1><span>50% OFF</span><br>
-                Tasty Food <br> On Your Hand </h1>
+    <section class="main">
+        <div>
+            <h2>مرحبا, انا سيلين<br><span>مندوبة السادس ج</span></h2>
+            <h3>Vote me, Be happy</h3>
+            <a href="#projects" class="main-btn">اظهر اعمالي</a>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- order dashboard -->
+    <section class="cards" id="services">
+        <h2 class="title">الخدمات</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="info">
+                    <h3>اقتراحات</h3>
+                    <p>الميزة ستفتح اذا اصبحت انا رئيسة البرلمان</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-scroll"></i>
+                </div>
+                <div class="info">
+                    <h3>المقولة</h3>
+                    <p>مقولتنا</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-check-to-slot"></i>
+                </div>
+                <div class="info">
+                    <h3>التصويت</h3>
+                    <p>الميزة ستفتح عندما تبدأ إنتخابات المدرسة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
